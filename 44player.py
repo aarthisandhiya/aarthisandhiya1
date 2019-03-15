@@ -4,5 +4,5 @@ if b>len(a):
     print(a)
 else:
     c=a[:-b]
-    d=a[b-1:len(a)]
+    d=a[b:len(a)]
     print(d+c)
