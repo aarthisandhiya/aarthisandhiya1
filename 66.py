@@ -1,10 +1,10 @@
-a,b=map(int,input().split())
-s=[int(a) for a in input().split()]
-w=[]
+e,u=map(int,input().split())
+s=[int(e) for e in input().split()]
+r=[]
 for i in s:
-    if s.count(i)==b:
-        w.append(i)
-q=list(w)
+    if s.count(i)==u:
+        r.append(i)
+q=list(r)
 last=[]
 for i in q:
     if i not in last:
