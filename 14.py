@@ -1,4 +1,5 @@
-string=input()
+v=int(input())
+string=[str(v) for v in input()]
 vowel='aeiouAEIOU'
 newstr=''
 for i in string:
