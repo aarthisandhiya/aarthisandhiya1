@@ -1,2 +1,3 @@
-a=int('1010',2)
-print(a)
+a=input()
+b=int(a,2)
+print(b)
