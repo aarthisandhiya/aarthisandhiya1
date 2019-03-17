@@ -1,7 +1,7 @@
 a,b=map(str,input().split())
 c=0
-for i in a:
-    if i<=b:
+for i in range(0,len(a)):
+    if a[i]<=b:
         c=c+1
         if c==len(a):
             print("yes")
