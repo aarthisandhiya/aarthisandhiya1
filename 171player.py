@@ -8,7 +8,7 @@ if len(c)==1 and c[0]=='and':
 else:
     for i in range(0,len(c)):
         if c[i]=='and':
-            temp=c[i-i]
+            temp=c[i-1]
             c[i-1]=c[i+1]
             c[i+1]=temp
     print(' '.join(c))
