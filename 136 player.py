@@ -7,4 +7,4 @@ for i in range(0,len(c)):
 if count==0:
     print("no")
 else:
-    print("yes",' ',count)
+    print("yes",count)
