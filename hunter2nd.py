@@ -1,6 +1,6 @@
 a=int(input())
-b=[int(a) for a in input().split()]
-d=sorted(b)
+t=[int(a) for a in input().split()]
+d=sorted(t)
 s=d[::-1]
 for i in s:
     print(i,end="")
