@@ -1,6 +1,4 @@
-a=input()
-b=[]
-b.append(a)
+b=input()
 s=[]
 d=[]
 for i in range(0,len(b)):
@@ -8,7 +6,7 @@ for i in range(0,len(b)):
         s.append(b[i])
     else:
         d.append(b[i])
-c=s+ d 
+c=s+d 
 for i in range(0,len(c)):
     print(c[i],end="")
         
