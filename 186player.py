@@ -8,9 +8,11 @@ for i in a:
         c=c+1
     elif i=="Sundar":
         d=d+1
-    elif i=="VishalSundar" or i=="SundarVishal":
+    elif i=="VishalSundar" or i=="SundarVishal" or i=="Vishal_Sundar" or i=="Sundar_Vishal":
         e=e+1
 if c>0 and d>0 or e>0:
     print("yes")
 else:
     print("no")
+    
+    
