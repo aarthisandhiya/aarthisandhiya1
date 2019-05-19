@@ -8,5 +8,8 @@ for i in range(0,len(a)-1,2):
     a[j]=temp
     s.append(a[i])
     s.append(a[j])
-for i in s:
-    print(i,end="")
+    
+d=''
+for i in range(0,len(s)):
+    d=d+str(s[i])+''
+print(d.strip())
